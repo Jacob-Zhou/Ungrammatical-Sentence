@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "text": "一个种单的基于动作价值的（Action-Value Based）方法是，通过将在时间 t 前选择动作 a 所获得的总体奖励除以这个动作被选择的次数来估算 Qt(a) 的值。",
+            "errors": [
+                {
+                    "position": [
+                        2,
+                        4
+                    ],
+                    "correction": "简单",
+                    "type": "输入法",
+                    "difficulty": 1
+                }
+            ],
+            "source": {
+                "name": "深度强化学习(中文版)-p48",
+                "type": "书籍",
+                "genre": "专业写作",
+                "domain": "计算机",
+                "url": "https://deepreinforcementlearningbook.org/assets/pdfs/深度强化学习(中文版-彩色压缩).pdf"
+            },
+            "language": "中文"
+        }
+    ]
+}
