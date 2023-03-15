@@ -9,8 +9,10 @@
                         4
                     ],
                     "correction": "简单",
-                    "type": "输入法",
-                    "difficulty": 1
+                    "type": "笔误",
+                    "d-difficulty": 1,
+                    "c-difficulty": 1,
+                    "confusing": "false"
                 }
             ],
             "source": {
