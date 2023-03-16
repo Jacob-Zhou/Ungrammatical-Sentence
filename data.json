@@ -10,19 +10,20 @@
                     ],
                     "correction": "简单",
                     "type": "笔误",
-                    "d-difficulty": 1,
-                    "c-difficulty": 1,
-                    "confusing": "false"
+                    "confusing": 1,
+                    "fluency": 5
                 }
             ],
-            "source": {
-                "name": "深度强化学习(中文版)-p48",
-                "type": "书籍",
-                "genre": "专业写作",
-                "domain": "计算机",
-                "url": "https://deepreinforcementlearningbook.org/assets/pdfs/深度强化学习(中文版-彩色压缩).pdf"
-            },
-            "language": "中文"
+            "meta": {
+                "source": {
+                    "name": "深度强化学习(中文版)-p48",
+                    "type": "书籍",
+                    "genre": "专业写作",
+                    "domain": "计算机",
+                    "url": "https://deepreinforcementlearningbook.org/assets/pdfs/深度强化学习(中文版-彩色压缩).pdf"
+                },
+                "language": "中文"
+            }
         }
     ]
 }

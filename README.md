@@ -1,6 +1,6 @@
 # Ungrammatical-Sentence
 
-Collecting some writing error make by naive speecher.
+Collecting some writing error made by naive speecher.
 
 
 ## Data format
@@ -15,16 +15,21 @@ Data format is json:
                 4
             ],
             "correction": "简单",
-            "type": "输入法",
-            "difficulty": 1
+            "type": "笔误",
+            "confusing": 1,
+            "fluency": 5
         }
     ],
-    "source": {
-        "name": "深度强化学习(中文版)-p48",
-        "type": "book",
-        "url": "https://deepreinforcementlearningbook.org/assets/pdfs/深度强化学习(中文版-彩色压缩).pdf"
-    },
-    "language": "中文"
+    "meta": {
+        "source": {
+            "name": "深度强化学习(中文版)-p48",
+            "type": "书籍",
+            "genre": "专业写作",
+            "domain": "计算机",
+            "url": "https://deepreinforcementlearningbook.org/assets/pdfs/深度强化学习(中文版-彩色压缩).pdf"
+        },
+        "language": "中文"
+    }
 }
 ```
 
@@ -35,20 +40,22 @@ Data format is json:
   + `position`: An array field that represents the position of the error.
   + `correction`: A string field that represents the correction for the error.
   + `type`: A string field that represents the type of the error.
-  + `d-difficulty`: An integer field that represents the difficulty level of detect the error. [1-5]
-  + `c-difficulty`: An integer field that represents the difficulty level of correct the error. [1-5]
-  + `confusing`: An bool field that represents wether it will make the sentence unclear.
-+ `source`: An object field that contains information about the source of the text data.
-  + `name`: A string field that represents the name of the source.
-  + `type`: A string field that represents the type of the source.
-  + `genre`: A string field that represents the genre of the source. (体裁)
-  + `topic`: A string field that represents the topic of the source. (主题)
-  + `url`: A string field that represents the URL of the source.
-+ `language`: A string field that represents the language of the text data.
+  + `confusing`: An bool field that represents wether it will make the sentence unclear. [0-4]
+  + `fluency`: An bool field that represents wether it will make the sentence unclear. [0-4]
++ `meta`
+    + `source`: An object field that contains information about the source of the text data.
+        + `name`: A string field that represents the name of the source.
+        + `type`: A string field that represents the type of the source.
+        + `genre`: A string field that represents the genre of the source. (体裁)
+        + `topic`: A string field that represents the topic of the source. (主题)
+        + `url`: A string field that represents the URL of the source.
+    + `language`: A string field that represents the language of the text data.
 
 ## Guidelines
 
 ### Type
+客观的评价
+
 1. `笔误`: 同音字\五笔输入\OCR导致的替换 (1)
 1. `语序不当`
     1. `语序不当-定中`: "**巴金的晚年**写了许多优秀的作品。" (2-4)
@@ -89,19 +96,22 @@ Data format is json:
 #### TODO
 句群语病。
 
-### Difficulty of Detection
-1. 绝对错了
-1. 
-1. 严格来说错了
-1.
-1. 不确定是否错，但读起来不通顺
+### Confusing
+主观的评价
 
-### Difficulty of Correction
-1. 好改
-1.
-1. 一般好改
-1.
-1. 不好改
+1. 不影响阅读;
+1. 影响阅读，但容易推理出语意;
+1. 影响阅读，可以推理出语意;
+1. 影响阅读，很难推理出语意;
+1. 无法理解。
+
+### Fluency
+主观的评价
+1. 别扭
+1. 
+1. 有点别扭
+1. 
+1. 不别扭
 
 ## Source meta
 ### Type
