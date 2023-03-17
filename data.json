@@ -24,6 +24,112 @@
                 },
                 "language": "中文"
             }
+        },
+        {
+            "text": "空白圆形中的变量表示一个常规变量，而有阴影圆形的变量表示一个观测变量（Observed Variable）（这在随后的 2.7 节图片中展示），观测变量可以为其他常规变量的推理过程提供了信息。",
+            "errors": [
+                {
+                    "position": [
+                        65,
+                        65
+                    ],
+                    "correction": "的",
+                    "type": "成分残缺-定状补",
+                    "confusing": 1,
+                    "fluency": 3,
+                    "describe": ""
+                },
+                {
+                    "position": [
+                        68,
+                        70
+                    ],
+                    "correction": "出现",
+                    "type": "搭配不当-主谓",
+                    "confusing": 1,
+                    "fluency": 3,
+                    "describe": "主语为“观测变量”，根据上下文，下文的图并不是专门为“观测变量”而作的，因此说在图中“出现”会更好。"
+                },
+                {
+                    "position": [
+                        92,
+                        93
+                    ],
+                    "correction": "",
+                    "type": "成分多余-补语",
+                    "confusing": 1,
+                    "fluency": 1
+                }
+            ],
+            "meta": {
+                "source": {
+                    "name": "深度强化学习(中文版)-p48",
+                    "type": "书籍",
+                    "genre": "专业写作",
+                    "domain": "计算机",
+                    "url": "https://deepreinforcementlearningbook.org/assets/pdfs/深度强化学习(中文版-彩色压缩).pdf"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "三年当中，这个县的粮食总产量，以平均每年递增百分之二十的速度，大踏步地向前发展。",
+            "errors": [
+                {
+                    "position": [
+                        35,
+                        39
+                    ],
+                    "correction": "提高",
+                    "type": "搭配不当-主谓",
+                    "confusing": 1,
+                    "fluency": 5,
+                    "describe": "主语中心和谓语中心不能搭配。“总产量”不能说“发展”，可以说“提高”，因为“发展”是指事物由小到大的变化，而总产量的递增不能说由小到大，只能说由少变多，因此这种数量比原来多的变化，应该说“提高”"
+                },
+                {
+                    "position": [
+                        31,
+                        35
+                    ],
+                    "correction": "大幅度地",
+                    "type": "搭配不当-主谓",
+                    "confusing": 1,
+                    "fluency": 5
+                }
+            ],
+            "meta": {
+                "source": {
+                    "name": "现代汉语(增订第六版)-p114",
+                    "type": "书籍",
+                    "genre": "新闻",
+                    "domain": "通用"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "用手机到的反馈数据",
+            "meta": {
+                "source": {
+                    "name": "私人聊天",
+                    "type": "对话",
+                    "genre": "聊天",
+                    "domain": "计算机"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "嗯，你说说卡",
+            "meta": {
+                "source": {
+                    "name": "私人聊天",
+                    "type": "对话",
+                    "genre": "聊天",
+                    "domain": "计算机"
+                },
+                "language": "中文"
+            }
         }
     ]
 }

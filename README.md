@@ -120,7 +120,8 @@ Data format is json:
   + `网页-微博`
   + `网页-小红书`
   + `网页-知乎`
-+ `字幕` (Subtitle)
++ `字幕` (Subtitle)、
++ `对话`
 
 ### Genre
 + `专业写作` (Papers)
@@ -129,6 +130,8 @@ Data format is json:
 + `微博`
 + `小说`
 + `评论`
++ `聊天`
 
 ### Topic
 + `计算机`
++ `通用`
