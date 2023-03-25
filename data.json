@@ -109,6 +109,9 @@
         },
         {
             "text": "用手机到的反馈数据",
+            "corrections": [
+                "用收集到的反馈数据"
+            ],
             "meta": {
                 "source": {
                     "name": "私人聊天",
@@ -121,12 +124,92 @@
         },
         {
             "text": "嗯，你说说卡",
+            "corrections": [
+                "嗯，你说说看"
+            ],
             "meta": {
                 "source": {
                     "name": "私人聊天",
                     "type": "对话",
                     "genre": "聊天",
                     "domain": "计算机"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "其他人也发表一下意见，我性格考虑",
+            "corrections": [
+                "其他人也发表一下意见，我综合考虑"
+            ],
+            "meta": {
+                "source": {
+                    "name": "私人聊天",
+                    "type": "对话",
+                    "genre": "聊天",
+                    "domain": "通用"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "要拆掉才能换瓷妆",
+            "corrections": [
+                "要拆掉才能换瓷砖"
+            ],
+            "meta": {
+                "source": {
+                    "name": "私人聊天",
+                    "type": "对话",
+                    "genre": "聊天",
+                    "domain": "通用"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "可能发偏文章啥的吧",
+            "corrections": [
+                "可能发篇文章啥的吧"
+            ],
+            "meta": {
+                "source": {
+                    "name": "私人聊天",
+                    "type": "对话",
+                    "genre": "聊天",
+                    "domain": "通用"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "李凯自2016年被中国政府扣押，2018年因间谍罪被判处渐进10年。",
+            "corrections": [
+                "李凯自2016年被中国政府扣押，2018年因间谍罪被判处监禁10年。"
+            ],
+            "meta": {
+                "source": {
+                    "name": "美国驻华大使探视在中国被囚三美公民",
+                    "type": "网页-联合早报",
+                    "genre": "新闻",
+                    "domain": "通用",
+                    "url": "https://www.zaobao.com.sg/realtime/china/story20230325-1376155"
+                },
+                "language": "中文"
+            }
+        },
+        {
+            "text": "如果是你的话，那么你会花上6,500法郎，购买上这样的一台小型抱床吗？",
+            "corrections": [
+                "如果是你的话，那么你会花上6,500法郎，购买上这样的一台小型刨床吗？"
+            ],
+            "meta": {
+                "source": {
+                    "name": "爷孙三代人共同修复，传承下去的理念，修复20世纪法国木工刨床【本期大神：LADB Restoration 拉哥】",
+                    "type": "字幕-哔哩哔哩",
+                    "genre": "旁白",
+                    "domain": "机械",
+                    "url": "https://www.bilibili.com/video/BV1oV4y1X7zy/?t=52"
                 },
                 "language": "中文"
             }
